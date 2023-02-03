@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07405363298CA4000096630E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07405362298CA4000096630E /* AppDelegate.swift */; };
+		07405365298CA4000096630E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07405364298CA4000096630E /* SceneDelegate.swift */; };
+		07405367298CA4000096630E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07405366298CA4000096630E /* MainViewController.swift */; };
+		0740536A298CA4000096630E /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07405368298CA4000096630E /* MainViewController.storyboard */; };
+		0740536C298CA4010096630E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0740536B298CA4010096630E /* Assets.xcassets */; };
+		0740536F298CA4010096630E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0740536D298CA4010096630E /* LaunchScreen.storyboard */; };
+		07405378298CA44A0096630E /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07405377298CA44A0096630E /* Storyboarded.swift */; };
+		0740537A298CA45A0096630E /* Nibbed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07405379298CA45A0096630E /* Nibbed.swift */; };
+		0740537C298CA4730096630E /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0740537B298CA4730096630E /* ReuseIdentifiable.swift */; };
+		07405382298CAB660096630E /* PaperOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 07405381298CAB660096630E /* PaperOnboarding */; };
+		07405385298CAB7A0096630E /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 07405384298CAB7A0096630E /* RxCocoa */; };
+		07405387298CAB7A0096630E /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 07405386298CAB7A0096630E /* RxRelay */; };
+		07405389298CAB7A0096630E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 07405388298CAB7A0096630E /* RxSwift */; };
+		0740538B298CAB950096630E /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0740538A298CAB950096630E /* OnBoardingViewController.swift */; };
+		0740538D298CAC860096630E /* OnBoardingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0740538C298CAC860096630E /* OnBoardingViewController.storyboard */; };
+		07405390298CBC100096630E /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0740538F298CBC100096630E /* KakaoSDK */; };
+		07405392298CBC100096630E /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 07405391298CBC100096630E /* KakaoSDKAuth */; };
+		07405394298CBC100096630E /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 07405393298CBC100096630E /* KakaoSDKCommon */; };
+		07405396298CBC100096630E /* KakaoSDKCommonCore in Frameworks */ = {isa = PBXBuildFile; productRef = 07405395298CBC100096630E /* KakaoSDKCommonCore */; };
+		07405398298CBC100096630E /* KakaoSDKNavi in Frameworks */ = {isa = PBXBuildFile; productRef = 07405397298CBC100096630E /* KakaoSDKNavi */; };
+		0740539A298CBC100096630E /* KakaoSDKShare in Frameworks */ = {isa = PBXBuildFile; productRef = 07405399298CBC100096630E /* KakaoSDKShare */; };
+		0740539C298CBC100096630E /* KakaoSDKStory in Frameworks */ = {isa = PBXBuildFile; productRef = 0740539B298CBC100096630E /* KakaoSDKStory */; };
+		0740539E298CBC100096630E /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = 0740539D298CBC100096630E /* KakaoSDKTalk */; };
+		074053A0298CBC100096630E /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 0740539F298CBC100096630E /* KakaoSDKTemplate */; };
+		074053A2298CBC100096630E /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 074053A1298CBC100096630E /* KakaoSDKUser */; };
+		074053A5298CC1520096630E /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074053A4298CC1520096630E /* KakaoAuthVM.swift */; };
+		074053A8298CC2220096630E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 074053A7298CC2220096630E /* SnapKit */; };
+		074053AA298CE5DC0096630E /* AuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074053A9298CE5DC0096630E /* AuthVM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0740535F298CA4000096630E /* Ajae-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ajae-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07405362298CA4000096630E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07405364298CA4000096630E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		07405366298CA4000096630E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		07405369298CA4000096630E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainViewController.storyboard; sourceTree = "<group>"; };
+		0740536B298CA4010096630E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0740536E298CA4010096630E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07405370298CA4010096630E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07405377298CA44A0096630E /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		07405379298CA45A0096630E /* Nibbed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibbed.swift; sourceTree = "<group>"; };
+		0740537B298CA4730096630E /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		0740538A298CAB950096630E /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		0740538C298CAC860096630E /* OnBoardingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoardingViewController.storyboard; sourceTree = "<group>"; };
+		074053A3298CBD830096630E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		074053A4298CC1520096630E /* KakaoAuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
+		074053A9298CE5DC0096630E /* AuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0740535C298CA4000096630E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07405387298CAB7A0096630E /* RxRelay in Frameworks */,
+				07405394298CBC100096630E /* KakaoSDKCommon in Frameworks */,
+				07405390298CBC100096630E /* KakaoSDK in Frameworks */,
+				07405398298CBC100096630E /* KakaoSDKNavi in Frameworks */,
+				07405385298CAB7A0096630E /* RxCocoa in Frameworks */,
+				0740539C298CBC100096630E /* KakaoSDKStory in Frameworks */,
+				07405389298CAB7A0096630E /* RxSwift in Frameworks */,
+				07405396298CBC100096630E /* KakaoSDKCommonCore in Frameworks */,
+				0740539A298CBC100096630E /* KakaoSDKShare in Frameworks */,
+				074053A8298CC2220096630E /* SnapKit in Frameworks */,
+				0740539E298CBC100096630E /* KakaoSDKTalk in Frameworks */,
+				074053A2298CBC100096630E /* KakaoSDKUser in Frameworks */,
+				07405382298CAB660096630E /* PaperOnboarding in Frameworks */,
+				074053A0298CBC100096630E /* KakaoSDKTemplate in Frameworks */,
+				07405392298CBC100096630E /* KakaoSDKAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07405356298CA4000096630E = {
+			isa = PBXGroup;
+			children = (
+				07405361298CA4000096630E /* Ajae-ios */,
+				07405360298CA4000096630E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07405360298CA4000096630E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0740535F298CA4000096630E /* Ajae-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07405361298CA4000096630E /* Ajae-ios */ = {
+			isa = PBXGroup;
+			children = (
+				07405362298CA4000096630E /* AppDelegate.swift */,
+				07405364298CA4000096630E /* SceneDelegate.swift */,
+				074053A4298CC1520096630E /* KakaoAuthVM.swift */,
+				074053A9298CE5DC0096630E /* AuthVM.swift */,
+				0740537F298CA4BC0096630E /* ViewController */,
+				0740537D298CA4850096630E /* API */,
+				07405376298CA4200096630E /* Extensions */,
+				0740537E298CA4AB0096630E /* ViewModel */,
+				0740536B298CA4010096630E /* Assets.xcassets */,
+				0740536D298CA4010096630E /* LaunchScreen.storyboard */,
+				07405370298CA4010096630E /* Info.plist */,
+				074053A3298CBD830096630E /* Config.xcconfig */,
+			);
+			path = "Ajae-ios";
+			sourceTree = "<group>";
+		};
+		07405376298CA4200096630E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07405377298CA44A0096630E /* Storyboarded.swift */,
+				07405379298CA45A0096630E /* Nibbed.swift */,
+				0740537B298CA4730096630E /* ReuseIdentifiable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0740537D298CA4850096630E /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0740537E298CA4AB0096630E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0740537F298CA4BC0096630E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07405368298CA4000096630E /* MainViewController.storyboard */,
+				07405366298CA4000096630E /* MainViewController.swift */,
+				0740538A298CAB950096630E /* OnBoardingViewController.swift */,
+				0740538C298CAC860096630E /* OnBoardingViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0740535E298CA4000096630E /* Ajae-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07405373298CA4010096630E /* Build configuration list for PBXNativeTarget "Ajae-ios" */;
+			buildPhases = (
+				0740535B298CA4000096630E /* Sources */,
+				0740535C298CA4000096630E /* Frameworks */,
+				0740535D298CA4000096630E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ajae-ios";
+			packageProductDependencies = (
+				07405381298CAB660096630E /* PaperOnboarding */,
+				07405384298CAB7A0096630E /* RxCocoa */,
+				07405386298CAB7A0096630E /* RxRelay */,
+				07405388298CAB7A0096630E /* RxSwift */,
+				0740538F298CBC100096630E /* KakaoSDK */,
+				07405391298CBC100096630E /* KakaoSDKAuth */,
+				07405393298CBC100096630E /* KakaoSDKCommon */,
+				07405395298CBC100096630E /* KakaoSDKCommonCore */,
+				07405397298CBC100096630E /* KakaoSDKNavi */,
+				07405399298CBC100096630E /* KakaoSDKShare */,
+				0740539B298CBC100096630E /* KakaoSDKStory */,
+				0740539D298CBC100096630E /* KakaoSDKTalk */,
+				0740539F298CBC100096630E /* KakaoSDKTemplate */,
+				074053A1298CBC100096630E /* KakaoSDKUser */,
+				074053A7298CC2220096630E /* SnapKit */,
+			);
+			productName = "Ajae-ios";
+			productReference = 0740535F298CA4000096630E /* Ajae-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07405357298CA4000096630E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0740535E298CA4000096630E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0740535A298CA4000096630E /* Build configuration list for PBXProject "Ajae-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07405356298CA4000096630E;
+			packageReferences = (
+				07405380298CAB650096630E /* XCRemoteSwiftPackageReference "paper-onboarding" */,
+				07405383298CAB7A0096630E /* XCRemoteSwiftPackageReference "RxSwift" */,
+				0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				074053A6298CC2220096630E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 07405360298CA4000096630E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0740535E298CA4000096630E /* Ajae-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0740535D298CA4000096630E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0740538D298CAC860096630E /* OnBoardingViewController.storyboard in Resources */,
+				0740536F298CA4010096630E /* LaunchScreen.storyboard in Resources */,
+				0740536C298CA4010096630E /* Assets.xcassets in Resources */,
+				0740536A298CA4000096630E /* MainViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0740535B298CA4000096630E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074053AA298CE5DC0096630E /* AuthVM.swift in Sources */,
+				074053A5298CC1520096630E /* KakaoAuthVM.swift in Sources */,
+				0740537A298CA45A0096630E /* Nibbed.swift in Sources */,
+				07405367298CA4000096630E /* MainViewController.swift in Sources */,
+				07405363298CA4000096630E /* AppDelegate.swift in Sources */,
+				0740538B298CAB950096630E /* OnBoardingViewController.swift in Sources */,
+				07405365298CA4000096630E /* SceneDelegate.swift in Sources */,
+				0740537C298CA4730096630E /* ReuseIdentifiable.swift in Sources */,
+				07405378298CA44A0096630E /* Storyboarded.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07405368298CA4000096630E /* MainViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07405369298CA4000096630E /* Base */,
+			);
+			name = MainViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		0740536D298CA4010096630E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0740536E298CA4010096630E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07405371298CA4010096630E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074053A3298CBD830096630E /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07405372298CA4010096630E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074053A3298CBD830096630E /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07405374298CA4010096630E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074053A3298CBD830096630E /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PK26VJ57ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ajae-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = MainViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donggu.ajae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		07405375298CA4010096630E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074053A3298CBD830096630E /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PK26VJ57ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ajae-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = MainViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donggu.ajae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0740535A298CA4000096630E /* Build configuration list for PBXProject "Ajae-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07405371298CA4010096630E /* Debug */,
+				07405372298CA4010096630E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07405373298CA4010096630E /* Build configuration list for PBXNativeTarget "Ajae-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07405374298CA4010096630E /* Debug */,
+				07405375298CA4010096630E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07405380298CAB650096630E /* XCRemoteSwiftPackageReference "paper-onboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ramotion/paper-onboarding.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		07405383298CAB7A0096630E /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		074053A6298CC2220096630E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07405381298CAB660096630E /* PaperOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07405380298CAB650096630E /* XCRemoteSwiftPackageReference "paper-onboarding" */;
+			productName = PaperOnboarding;
+		};
+		07405384298CAB7A0096630E /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07405383298CAB7A0096630E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		07405386298CAB7A0096630E /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07405383298CAB7A0096630E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		07405388298CAB7A0096630E /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07405383298CAB7A0096630E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		0740538F298CBC100096630E /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		07405391298CBC100096630E /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		07405393298CBC100096630E /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		07405395298CBC100096630E /* KakaoSDKCommonCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommonCore;
+		};
+		07405397298CBC100096630E /* KakaoSDKNavi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKNavi;
+		};
+		07405399298CBC100096630E /* KakaoSDKShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKShare;
+		};
+		0740539B298CBC100096630E /* KakaoSDKStory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKStory;
+		};
+		0740539D298CBC100096630E /* KakaoSDKTalk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTalk;
+		};
+		0740539F298CBC100096630E /* KakaoSDKTemplate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTemplate;
+		};
+		074053A1298CBC100096630E /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0740538E298CBC100096630E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+		074053A7298CC2220096630E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 074053A6298CC2220096630E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 07405357298CA4000096630E /* Project object */;
+}
